@@ -25,11 +25,12 @@ var email=document.getElementById("email").value;
 var phone=document.getElementById("phone").value;
 var password=document.getElementById("password").value;
 var confirm=document.getElementById("confirm").value;
-if(name==" "||email==" "||phone==" "||password==" "||confirm==" ")
+if(name==""||email==""||phone==""||password==""||confirm=="")
+{
 alert("All fields are required!");
 return false;
 }
-if(!email.includes("@")||email.includes(".")) 
+if(!email.includes("@")||!email.includes(".")) 
 {
 alert("Enter a valid email!");
 return false;
@@ -55,5 +56,3 @@ return true;
 </script>
 </body>
 </html>
-
-

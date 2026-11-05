@@ -1,0 +1,27 @@
+body {
+background-color: lavender;
+font-family:Times New Roman;
+margin: 30px;
+}
+h1 {
+text-align: center;
+color: black;
+}
+h2 {
+color: darkgreen;
+}
+p {
+font-size: 18px;
+padding: 10px;
+}
+ul {
+border: 2px solid black;
+padding: 20px;
+margin: 20px;
+color: white;
+font-weight: bold; 
+background-color: lightsteelblue;
+}
+li {
+padding: 5px;
+}
